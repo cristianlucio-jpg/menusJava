@@ -40,10 +40,10 @@ Forma parte de un **portafolio académico y profesional** orientado a la prácti
 ```text
 menusJava/
 ├── src/
-│   ├── ejercicio01/menuEjemplo.java
-│   ├── ejercicio02/menuEjemplo2.java
-│   ├── ejercicio03/menuMatematico.java
-│   └── ejercicio04/registrosVentas.java
+│   ├── ejercicio01MenuEjemplo/menuEjemplo.java
+│   ├── ejercicio02MenuEjemplo2/menuEjemplo2.java
+│   ├── ejercicio03MenuMatematico/menuMatematico.java
+│   └── ejercicio04RegistrosVentas/registrosVentas.java
 └── README.md
 
 Autor
