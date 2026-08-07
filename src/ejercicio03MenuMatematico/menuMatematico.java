@@ -1,4 +1,4 @@
-package ejercicio03;
+package ejercicio03MenuMatematico;
 import java.util.Scanner;
 
 /**
@@ -30,31 +30,35 @@ public class menuMatematico {
             switch (opcion) {
                 case 1:
                     System.out.print("Ingrese el primer número: ");
-                    double num1Suma = teclado.nextDouble();
+                    double numero1Suma = teclado.nextDouble();
                     System.out.print("Ingrese el segundo número: ");
-                    double num2Suma = teclado.nextDouble();
-                    System.out.println("La suma es: " + realizarSuma(num1Suma, num2Suma));
+                    double numero2Suma = teclado.nextDouble();
+                    System.out.println("La suma es: " 
+                    + realizarSuma(numero1Suma, numero2Suma));
                     break;
                 case 2:
                     System.out.print("Ingrese el primer número: ");
-                    double num1Resta = teclado.nextDouble();
+                    double numero1Resta = teclado.nextDouble();
                     System.out.print("Ingrese el segundo número: ");
-                    double num2Resta = teclado.nextDouble();
-                    System.out.println("La resta es: " + realizarResta(num1Resta, num2Resta));
+                    double numero2Resta = teclado.nextDouble();
+                    System.out.println("La resta es: " 
+                    + realizarResta(numero1Resta, numero2Resta));
                     break;
                 case 3:
                     System.out.print("Ingrese el primer número: ");
-                    double num1Multiplicacion = teclado.nextDouble();
+                    double numero1Multiplicacion = teclado.nextDouble();
                     System.out.print("Ingrese el segundo número: ");
-                    double num2Multiplicacion = teclado.nextDouble();
-                    System.out.println("La multiplicación es: " + realizarMultiplicacion(num1Multiplicacion, num2Multiplicacion));
+                    double numero2Multiplicacion = teclado.nextDouble();
+                    System.out.println("La multiplicación es: " 
+                    + realizarMultiplicacion(numero1Multiplicacion, numero2Multiplicacion));
                     break;
                 case 4:
                     System.out.print("Ingrese el primer número: ");
-                    double num1Division = teclado.nextDouble();
+                    double numero1Division = teclado.nextDouble();
                     System.out.print("Ingrese el segundo número: ");
-                    double num2Division = teclado.nextDouble();
-                    System.out.println("La división es: " + realizarDivision(num1Division, num2Division));
+                    double numero2Division = teclado.nextDouble();
+                    System.out.println("La división es: " 
+                    + realizarDivision(numero1Division, numero2Division));
                     break;
                 case 5:
                     System.out.println("Saliendo del programa...");
@@ -79,24 +83,24 @@ public class menuMatematico {
     }
 
     /** Método para sumar dos números */
-    public static double realizarSuma(double num1, double num2) {
-        return num1 + num2;
+    public static double realizarSuma(double numero1, double numero2) {
+        return numero1 + numero2;
     }
 
     /** Método para restar dos números */
-    public static double realizarResta(double num1, double num2) {
-        return num1 - num2;
+    public static double realizarResta(double numero1, double numero2) {
+        return numero1 - numero2;
     }
 
     /** Método para multiplicar dos números */
-    public static double realizarMultiplicacion(double num1, double num2) {
-        return num1 * num2;
+    public static double realizarMultiplicacion(double numero1, double numero2) {
+        return numero1 * numero2;
     }
 
     /** Método para dividir dos números */
-    public static double realizarDivision(double num1, double num2) {
-        if (num2 != 0) {
-            return num1 / num2;
+    public static double realizarDivision(double numero1, double numero2) {
+        if (numero2 != 0) {
+            return numero1 / numero2;
         } else {
             System.out.println("Error: División por cero");
             return 0;

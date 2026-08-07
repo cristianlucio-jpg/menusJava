@@ -1,8 +1,8 @@
-package ejercicio04;
+package ejercicio04menuVenta;
 import java.util.Scanner;
 
 /**
- * Clase RegistrosVentas.
+ * Clase registrosVentas.
  * 
  * Objetivo: Registrar ventas, calcular IVA y total a pagar.
  * 
@@ -16,7 +16,7 @@ import java.util.Scanner;
  * 
  * @author Cristian Alexis Lucio Narvaéz
  */
-public class registrosVentas {
+public class menuVenta {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         double totalCaja = 0;

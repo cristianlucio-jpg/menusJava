@@ -20,10 +20,10 @@ Forma parte de un **portafolio académico y profesional** orientado a la prácti
 
 | Ejercicio            | Clase               | Descripción |
 |----------------------|---------------------|-------------|
-| **menuEjemplo**      | `menuEjemplo.java`  | Menú básico con opciones simples. |
-| **menuEjemplo2**     | `menuEjemplo2.java` | Menú extendido con más alternativas. |
-| **menuMatematico**   | `menuMatematico.java` | Menú para realizar operaciones matemáticas. |
-| **registrosVentas**  | `registrosVentas.java` | Menú para gestionar registros de ventas. |
+| **MenuEjemplo**      | `menuEjemplo.java`  | Menú básico con opciones simples. |
+| **MenuEjemplo2**     | `menuEjemplo2.java` | Menú extendido con más alternativas. |
+| **MenuMatematico**   | `menuMatematico.java` | Menú para realizar operaciones matemáticas. |
+| **MenuVenta**  | `menuVenta.java` | Menú para gestionar registros de ventas. |
 
 ---
 
@@ -43,7 +43,7 @@ menusJava/
 │   ├── ejercicio01MenuEjemplo/menuEjemplo.java
 │   ├── ejercicio02MenuEjemplo2/menuEjemplo2.java
 │   ├── ejercicio03MenuMatematico/menuMatematico.java
-│   └── ejercicio04RegistrosVentas/registrosVentas.java
+│   └── ejercicio04MenuVenta/menuVenta.java
 └── README.md
 
 Autor

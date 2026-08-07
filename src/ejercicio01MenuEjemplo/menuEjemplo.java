@@ -1,4 +1,4 @@
-package ejercicio01;
+package ejercicio01MenuEjemplo;
 import java.util.Scanner;
 
 /**

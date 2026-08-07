@@ -1,6 +1,6 @@
-package ejercicio02;
-import java.util.Scanner;
+package ejercicio02MenuEjemplo2;
 import java.time.LocalDateTime;
+import java.util.Scanner;
 
 /**
  * Clase MenuEjemplo2.
@@ -28,10 +28,10 @@ public class menuEjemplo2 {
             switch (opcion) {
                 case 1:
                     System.out.print("Ingrese el primer número: ");
-                    int num1 = teclado.nextInt();
+                    int numero1 = teclado.nextInt();
                     System.out.print("Ingrese el segundo número: ");
-                    int num2 = teclado.nextInt();
-                    sumarNumeros(num1, num2);
+                    int numero2 = teclado.nextInt();
+                    sumarNumeros(numero1, numero2);
                     break;
                 case 2:
                     mostrarFechaActual();
@@ -57,8 +57,8 @@ public class menuEjemplo2 {
     }
 
     /** Método para sumar dos números */
-    public static void sumarNumeros(int num1, int num2) {
-        int suma = num1 + num2;
+    public static void sumarNumeros(int numero1, int numero2) {
+        int suma = numero1 + numero2;
         System.out.println("La suma es: " + suma);
     }
 
