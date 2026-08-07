@@ -36,6 +36,11 @@ Forma parte de un **portafolio académico y profesional** orientado a la prácti
 
 ---
 
+## Tecnologías usadas
+- Java
+- JDK (Java Development Kit)
+- NetBeans IDE
+
 ## Estructura del proyecto
 ```text
 menusJava/
